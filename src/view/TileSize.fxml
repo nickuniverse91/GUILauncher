@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="275.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TileSizeController">
+   <children>
+      <HBox layoutX="14.0" layoutY="14.0" prefHeight="58.0" prefWidth="251.0" spacing="5.0">
+         <children>
+            <Label prefHeight="27.0" prefWidth="49.0" text="Tile Size: " />
+            <Slider fx:id="slider" blockIncrement="0.125" majorTickUnit="0.5" max="2.0" min="0.5" prefHeight="52.0" prefWidth="140.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="1.0" />
+            <Label fx:id="sizeLabel" prefHeight="25.0" prefWidth="45.0" />
+         </children>
+      </HBox>
+   </children>
+</Pane>
